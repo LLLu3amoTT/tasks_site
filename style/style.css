@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.font {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.input {
+    height: 25px;
+    width: 150px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: #FF9900;
+    border: 1px solid #FF9900;
+}
+
+.input-btn {
+    height: 29px;
+    width: 29px;
+    background-color: #FF9900;
+    border: 1px solid #FF9900;
+}
+
+.drop-menu {
+    height: 29px;
+    background-color: #FF6600;
+    border-top-right-radius: 8px;
+
+    border: 1px solid #FF6600;
+}
+
+option {
+    background-color: #FFCC33;
+}
+
+.works {
+    height: auto;
+    width: 90%;
+    border: 2px solid gray;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.item-text {
+    list-style: none;
+    border: 1px solid rgba(128, 128, 128, 0.356);
+    margin-right: 40px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+}
+
+.item-text__before {
+    list-style: none;
+    opacity: 50%;
+}
+
+.list_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.buttons {
+    width: 80px;
+    position: absolute;
+    right: 6%;
+}
+
+.none {
+    display: none;
+}

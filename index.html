@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./style/style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="input-menu">
+        <div>
+            <input class="input font" id="input_js" onchange="this.value" type="text">
+            <button class="input-btn" id="btn_js"><i class="fa-solid fa-plus"></i></button>
+            <select class="drop-menu font">
+                <option class="font">Активные</option>
+                <option class="font">Выполнено</option>
+                <option class="font">Закрыто</option>
+            </select>
+        </div>
+    </header>
+    <div class="works">
+        <div class="list_html">
+            <ul class="list_item">
+                <li class="item-text font">asdasd
+                    <div class="buttons">
+                        <button class="btn-task btn-delete" id="btn-delete"><i class="fa-solid fa-trash-can"></i></button>
+                        <button class="btn-task btn-check" id="btn-check"><i class="fa-solid fa-check"></i></button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
